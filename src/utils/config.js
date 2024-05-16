@@ -1,5 +1,5 @@
-export const api = "https://reactgram-backend-13fc.onrender.com:5000/api";
-export const upload = "https://reactgram-backend-13fc.onrender.com:5000/uploads";
+export const api = "https://reactgram-backend-13fc.onrender.com/api";
+export const upload = "https://reactgram-backend-13fc.onrender.com/uploads";
 
 export const requestConfig = (method, data, token = null, image = null) => {
   let config;
